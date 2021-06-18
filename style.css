@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     text-align: center;
     margin:auto;
+    width: 80%;
     
 }
 
@@ -12,6 +13,7 @@ header{
     display:flex;
     justify-content: center;
     align-items:center;
+    /* width: 80%; */
 }
 
 header div{
@@ -20,7 +22,7 @@ header div{
 }
 
 header section{
-    margin-left:50%;
+    margin-left:35%;
     
     
     
@@ -48,6 +50,65 @@ h1{
 h3{
     font-size:.45em;
     
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /* width: 80%; */
+    /* padding: 20px; */
+    /* margin: 10px 10px; */
+}
+/* main img {
+    display: block;
+    width: fit-content;
+} */
+main section:nth-child(1){
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+main section div:nth-child(1){
+    text-align: left;
+    margin-right: 150px;
+}
+main section div:nth-child(1) h2 {
+    margin: 0px;
+} 
+
+main section div:nth-child(2) img {
+    float: right;
+    display: block;
+    width: 20px;
+    height: 15px;
+}
+
+main section div:nth-child(2) {
+    display: flex;
+
+}
+main section div:nth-child(2) p {
+    padding: 0px;
+
+}
+main p {
+    padding: 10px 225px;
+    text-align: left;
+    text-indent: 50px;
+    margin: 10px 0px;
+
+    
+   
+}
+
+#recipebox {
+    background-image: url(./img/list-bg.png);
+    max-width: 50%;
+    columns: 2;
 }
 
 
