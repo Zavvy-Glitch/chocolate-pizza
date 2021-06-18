@@ -1,0 +1,53 @@
+body{
+    display:flex;
+    padding: 25px 100px 40px 100px;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+    
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+header div{
+   
+    
+}
+
+header section{
+    margin-left:50%;
+    
+    
+    
+}
+header section img{
+    margin:0px;
+}
+header section img:nth-child(6){
+    margin-right:10px;
+}
+
+#logo img{
+    padding-right:10px;
+    
+}
+
+
+#logowords {
+    text-align: left;
+}
+
+h1{
+    margin:0px;
+}
+h3{
+    font-size:.45em;
+    
+}
+
+
