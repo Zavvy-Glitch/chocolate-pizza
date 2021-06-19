@@ -16,10 +16,6 @@ header{
     /* width: 80%; */
 }
 
-header div{
-   
-    
-}
 
 header section{
     margin-left:35%;
@@ -58,14 +54,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    /* width: 80%; */
-    /* padding: 20px; */
-    /* margin: 10px 10px; */
 }
-/* main img {
-    display: block;
-    width: fit-content;
-} */
+
 main section:nth-child(1){
     display:flex;
     flex-direction: row;
@@ -73,8 +63,9 @@ main section:nth-child(1){
     align-items:center;
 }
 main section div:nth-child(1){
+    display: column;
     text-align: left;
-    margin-right: 150px;
+    margin-right: 650px;
 }
 main section div:nth-child(1) h2 {
     margin: 0px;
@@ -85,6 +76,7 @@ main section div:nth-child(2) img {
     display: block;
     width: 20px;
     height: 15px;
+    
 }
 
 main section div:nth-child(2) {
@@ -100,15 +92,83 @@ main p {
     text-align: left;
     text-indent: 50px;
     margin: 10px 0px;
-
-    
-   
+    width: 900px;
 }
 
 #recipebox {
     background-image: url(./img/list-bg.png);
-    max-width: 50%;
+    /* max-width: 50%; */
     columns: 2;
+    padding: 20px 0px;
+    width: 900px;
+    margin-bottom: 20px;
 }
 
 
+#recipebox ul {
+    text-align: left;
+}
+
+hr {
+    border-top: 6px solid #bbb;
+    border-radius: 5px;
+    width: 60%;
+  }
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0px 0px 100px 0px;
+}
+
+footer div {
+    display: inline;
+    padding-left: 10px;
+}
+
+footer div:nth-child(2) {
+    text-align: left;
+}
+
+footer div:nth-child(3) {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer p {
+    margin-top: 0px;
+    width: 80%
+}
+
+footer h2 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color:rgb(136, 74, 70);
+    border: none;
+    font-size: 1.2em;
+}
+
+#footerline {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+    width: 60%;
+    z-index: -1;
+}
+
+#secondfoot {
+    display: flex;
+    justify-content: center;
+}
+
+#secondfoot img {
+    display: block;
+}
